@@ -1,12 +1,15 @@
 import React from 'react';
 import {View, Text, StyleSheet} from 'react-native';
+import {TouchableOpacity} from 'react-native-gesture-handler';
 import Entypo from 'react-native-vector-icons/Entypo';
 import {COLORS} from '../../src/consts';
 
-const HeaderHome = () => {
+const HeaderHome = ({navigation}) => {
   return (
     <View>
-      <Entypo name="list" size={20} style={styles.HeaderIconMenu} />
+      <TouchableOpacity onPress={() => navigation.openDrawer()}>
+        <Entypo name="list" size={20} style={styles.HeaderIconMenu} />
+      </TouchableOpacity>
       <View style={styles.ContainerHeader}>
         <Entypo name="shopping-cart" size={20} style={{color: 'black'}} />
         <View>

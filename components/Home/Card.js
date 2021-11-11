@@ -14,7 +14,6 @@ const width = Dimensions.get('screen').width / 2 - 30;
 
 const Card = ({item, navigation}) => {
   const [Like, setLike] = useState(item.like);
-  console.log(item);
   return (
     <View style={[styles.Card]} key={item.id}>
       <View style={styles.HeartIcon}>

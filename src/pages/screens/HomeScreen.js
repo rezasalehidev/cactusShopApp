@@ -13,7 +13,7 @@ const HomeScreen = ({navigation}) => {
   return (
     <View style={styles.Container}>
       {/* Header Home */}
-      <HeaderHome />
+      <HeaderHome navigation={navigation} />
       {/* SearchBar */}
       <Searchbar />
       {/* All Category Plant */}
