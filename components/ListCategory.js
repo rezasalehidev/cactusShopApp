@@ -1,12 +1,9 @@
-import React, {useState} from 'react';
+import React from 'react';
 import {View, Text, StyleSheet} from 'react-native';
 import {TouchableOpacity} from 'react-native-gesture-handler';
 import COLORS from './../src/consts/colors';
 
-const categories = ['کاکتوس', 'گل رز', 'گل محمدی', 'گل مریم'];
-const ListCategory = () => {
-  const [indexcategory, setIndexcategory] = useState(0);
-
+const ListCategory = ({categories, onPress, indexcategory}) => {
   return (
     <View style={Styles.ContainerLists}>
       {categories.map((item, index) => (
@@ -16,8 +13,14 @@ const ListCategory = () => {
             Styles.EachItem,
             index == indexcategory ? Styles.Selectindex : {},
           ]}>
-          <TouchableOpacity onPress={() => setIndexcategory(index)}>
-            <Text style={Styles.TextItem}>{item}</Text>
+          <TouchableOpacity onPress={() => onPress(index)}>
+            <Text
+              style={[
+                Styles.TextItem,
+                index == indexcategory ? {color: COLORS.green} : {},
+              ]}>
+              {item}
+            </Text>
           </TouchableOpacity>
         </View>
       ))}
@@ -43,6 +46,7 @@ const Styles = StyleSheet.create({
     borderBottomWidth: 1,
     borderColor: COLORS.green,
     padding: 8,
+    color: COLORS.green,
   },
 });
 
