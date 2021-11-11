@@ -3,13 +3,19 @@ import {View, Text, StyleSheet} from 'react-native';
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 import EvilIcons from 'react-native-vector-icons/EvilIcons';
 import {COLORS} from './../src/consts';
-import {TextInput} from 'react-native-gesture-handler';
+import {TextInput, TouchableOpacity} from 'react-native-gesture-handler';
 
 const Searchbar = () => {
   return (
     <View style={styles.containerSearch}>
-      <EvilIcons name="search" size={20} style={styles.IconSearch} />
-      <TextInput placeholder="جستجو" style={styles.TextSearchInput} />
+      <TouchableOpacity>
+        <EvilIcons name="search" size={20} style={styles.IconSearch} />
+      </TouchableOpacity>
+      <TextInput
+        placeholder="جستجو"
+        style={styles.TextSearchInput}
+        placeholderTextColor="#000"
+      />
     </View>
   );
 };
@@ -29,7 +35,7 @@ const styles = StyleSheet.create({
   },
   TextSearchInput: {
     borderWidth: 1,
-    borderColor: '#ddd',
+    borderColor: '#000',
     flex: 6,
     paddingRight: 10,
     borderTopRightRadius: 15,

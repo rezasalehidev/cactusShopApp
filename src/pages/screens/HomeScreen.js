@@ -1,11 +1,13 @@
 import React, {useState} from 'react';
-import {View, Text, StyleSheet} from 'react-native';
+import {View, Text, StyleSheet, FlatList} from 'react-native';
 import HeaderHome from '../../../components/HeaderHome';
 import ListCategory from '../../../components/ListCategory';
 import Searchbar from './../../../components/Searchbar';
+import Card from './../../../components/Card';
+import plants from './../../consts/plants';
 
 const categories = ['کاکتوس', 'گل رز', 'گل محمدی', 'گل مریم'];
-const HomeScreen = () => {
+const HomeScreen = ({navigation}) => {
   const [indexcategory, setIndexcategory] = useState(0);
 
   return (
@@ -16,6 +18,14 @@ const HomeScreen = () => {
         categories={categories}
         onPress={index => setIndexcategory(index)}
         indexcategory={indexcategory}
+      />
+      <FlatList
+        contentContainerStyle={{marginTop: 20, paddingBottom: 10}}
+        numColumns={2}
+        columnWrapperStyle={{justifyContent: 'space-between'}}
+        showsVerticalScrollIndicator={false}
+        data={plants}
+        renderItem={({item}) => <Card item={item} navigation={navigation} />}
       />
     </View>
   );

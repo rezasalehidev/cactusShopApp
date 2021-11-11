@@ -1,8 +1,8 @@
 const plants = [
   {
     id: 1,
-    name: 'Succulent Plant',
-    price: '39.99',
+    name: 'کاکتوس',
+    price: '39',
     like: true,
     img: require('../assets/plant1.png'),
     about:
@@ -11,8 +11,8 @@ const plants = [
 
   {
     id: 2,
-    name: 'Dragon Plant',
-    price: '29.99',
+    name: 'گل مریم',
+    price: '29',
     like: false,
     img: require('../assets/plant2.png'),
     about:
@@ -20,8 +20,8 @@ const plants = [
   },
   {
     id: 3,
-    name: 'Ravenea Plant',
-    price: '25.99',
+    name: 'گل رز',
+    price: '25',
     like: false,
     img: require('../assets/plant3.png'),
     about:
@@ -30,8 +30,8 @@ const plants = [
 
   {
     id: 4,
-    name: 'Potted Plant',
-    price: '25.99',
+    name: 'کوکب',
+    price: '60',
     like: true,
     img: require('../assets/plant4.png'),
     about:
@@ -39,8 +39,8 @@ const plants = [
   },
   {
     id: 5,
-    name: 'Ravenea Plant',
-    price: '50.99',
+    name: 'گل محمدی',
+    price: '40',
     like: true,
     img: require('../assets/plant5.png'),
     about:
@@ -48,8 +48,8 @@ const plants = [
   },
   {
     id: 6,
-    name: 'Dragon Plant',
-    price: '50.99',
+    name: 'گل یاس',
+    price: '50',
     like: false,
     img: require('../assets/plant6.png'),
     about:
