@@ -1,7 +1,7 @@
 import React from 'react';
 import {View, Text, StyleSheet} from 'react-native';
 import {TouchableOpacity} from 'react-native-gesture-handler';
-import COLORS from './../src/consts/colors';
+import {COLORS} from '../../src/consts';
 
 const ListCategory = ({categories, onPress, indexcategory}) => {
   return (

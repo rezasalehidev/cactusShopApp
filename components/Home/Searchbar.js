@@ -2,7 +2,7 @@ import React from 'react';
 import {View, Text, StyleSheet} from 'react-native';
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 import EvilIcons from 'react-native-vector-icons/EvilIcons';
-import {COLORS} from './../src/consts';
+import {COLORS} from '../../src/consts';
 import {TextInput, TouchableOpacity} from 'react-native-gesture-handler';
 
 const Searchbar = () => {

@@ -9,11 +9,12 @@ import {
 } from 'react-native';
 import {TouchableOpacity} from 'react-native-gesture-handler';
 import Entypo from 'react-native-vector-icons/Entypo';
-import {COLORS} from './../src/consts';
+import {COLORS} from '../../src/consts';
 const width = Dimensions.get('screen').width / 2 - 30;
 
 const Card = ({item, navigation}) => {
   const [Like, setLike] = useState(item.like);
+  console.log(item);
   return (
     <View style={[styles.Card]} key={item.id}>
       <View style={styles.HeartIcon}>
@@ -28,8 +29,7 @@ const Card = ({item, navigation}) => {
         </TouchableOpacity>
       </View>
       <View style={{height: 100}}>
-        <TouchableOpacity
-          onPress={() => navigation.navigate('Details', {item})}>
+        <TouchableOpacity onPress={() => navigation.navigate('Details', item)}>
           <Image
             source={item.img}
             style={styles.imgCard}
@@ -37,7 +37,7 @@ const Card = ({item, navigation}) => {
           />
         </TouchableOpacity>
       </View>
-      <TouchableOpacity onPress={() => navigation.navigate('Details', {item})}>
+      <TouchableOpacity onPress={() => navigation.navigate('Details', item)}>
         <View style={styles.titelName}>
           <Text style={styles.TextName}>{item.name}</Text>
           <View style={styles.ContainerPrice}>

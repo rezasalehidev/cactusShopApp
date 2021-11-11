@@ -1,9 +1,9 @@
 import React, {useState} from 'react';
-import {View, Text, StyleSheet, FlatList} from 'react-native';
-import HeaderHome from '../../../components/HeaderHome';
-import ListCategory from '../../../components/ListCategory';
-import Searchbar from './../../../components/Searchbar';
-import Card from './../../../components/Card';
+import {View, StyleSheet, FlatList} from 'react-native';
+import HeaderHome from '../../../components/Home/HeaderHome';
+import ListCategory from '../../../components/Home/ListCategory';
+import Searchbar from './../../../components/Home/Searchbar';
+import Card from './../../../components/Home/Card';
 import plants from './../../consts/plants';
 
 const categories = ['کاکتوس', 'گل رز', 'گل محمدی', 'گل مریم'];
@@ -12,8 +12,11 @@ const HomeScreen = ({navigation}) => {
 
   return (
     <View style={styles.Container}>
+      {/* Header Home */}
       <HeaderHome />
+      {/* SearchBar */}
       <Searchbar />
+      {/* All Category Plant */}
       <ListCategory
         categories={categories}
         onPress={index => setIndexcategory(index)}

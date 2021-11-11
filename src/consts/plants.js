@@ -6,7 +6,7 @@ const plants = [
     like: true,
     img: require('../assets/plant1.png'),
     about:
-      'Succulent Plantis one of the most popular and beautiful species that will produce clumpms. The storage of water often gives succulent plants a more swollen or fleshy appearance than other plants, a characteristic known as succulence.',
+      'ام نوعی گل رز است که از برخی نمونه‌های آن گلاب می‌گیرند. این گونه از رز مقاومت بالایی در مقابل کم‌آبی دارد و در شهرهای بزرگ به خوبی رشد می‌کند. گل سرخ درختچه ای برگ‌ریز است که ارتفاع آن به ۲٫۲ متر نیز می‌رسد و شاخه‌های آن با خارهای تیز و محکمی حفاظت می‌شود. گل محمدی طیف رنگی از صورتی روشن و متوسط تا سرخ روشن دارد',
   },
 
   {
@@ -16,7 +16,7 @@ const plants = [
     like: false,
     img: require('../assets/plant2.png'),
     about:
-      'Dragon Plant one of the most popular and beautiful species that will produce clumpms. The storage of water often gives succulent plants a more swollen or fleshy appearance than other plants, a characteristic known as succulence.',
+      'ام نوعی گل رز است که از برخی نمونه‌های آن گلاب می‌گیرند. این گونه از رز مقاومت بالایی در مقابل کم‌آبی دارد و در شهرهای بزرگ به خوبی رشد می‌کند. گل سرخ درختچه ای برگ‌ریز است که ارتفاع آن به ۲٫۲ متر نیز می‌رسد و شاخه‌های آن با خارهای تیز و محکمی حفاظت می‌شود. گل محمدی طیف رنگی از صورتی روشن و متوسط تا سرخ روشن دارد',
   },
   {
     id: 3,
@@ -25,7 +25,7 @@ const plants = [
     like: false,
     img: require('../assets/plant3.png'),
     about:
-      'Ravenea Plant one of the most popular and beautiful species that will produce clumpms. The storage of water often gives succulent plants a more swollen or fleshy appearance than other plants, a characteristic known as succulence.',
+      'ام نوعی گل رز است که از برخی نمونه‌های آن گلاب می‌گیرند. این گونه از رز مقاومت بالایی در مقابل کم‌آبی دارد و در شهرهای بزرگ به خوبی رشد می‌کند. گل سرخ درختچه ای برگ‌ریز است که ارتفاع آن به ۲٫۲ متر نیز می‌رسد و شاخه‌های آن با خارهای تیز و محکمی حفاظت می‌شود. گل محمدی طیف رنگی از صورتی روشن و متوسط تا سرخ روشن دارد',
   },
 
   {
@@ -35,7 +35,7 @@ const plants = [
     like: true,
     img: require('../assets/plant4.png'),
     about:
-      'Potted Plant Ravenea Plant one of the most popular and beautiful species that will produce clumpms. The storage of water often gives succulent plants a more swollen or fleshy appearance than other plants, a characteristic known as succulence.',
+      'ام نوعی گل رز است که از برخی نمونه‌های آن گلاب می‌گیرند. این گونه از رز مقاومت بالایی در مقابل کم‌آبی دارد و در شهرهای بزرگ به خوبی رشد می‌کند. گل سرخ درختچه ای برگ‌ریز است که ارتفاع آن به ۲٫۲ متر نیز می‌رسد و شاخه‌های آن با خارهای تیز و محکمی حفاظت می‌شود. گل محمدی طیف رنگی از صورتی روشن و متوسط تا سرخ روشن دارد',
   },
   {
     id: 5,
@@ -44,7 +44,7 @@ const plants = [
     like: true,
     img: require('../assets/plant5.png'),
     about:
-      'Potted Plant Ravenea Plant one of the most popular and beautiful species that will produce clumpms. The storage of water often gives succulent plants a more swollen or fleshy appearance than other plants, a characteristic known as succulence.',
+      'ام نوعی گل رز است که از برخی نمونه‌های آن گلاب می‌گیرند. این گونه از رز مقاومت بالایی در مقابل کم‌آبی دارد و در شهرهای بزرگ به خوبی رشد می‌کند. گل سرخ درختچه ای برگ‌ریز است که ارتفاع آن به ۲٫۲ متر نیز می‌رسد و شاخه‌های آن با خارهای تیز و محکمی حفاظت می‌شود. گل محمدی طیف رنگی از صورتی روشن و متوسط تا سرخ روشن دارد',
   },
   {
     id: 6,
@@ -53,7 +53,7 @@ const plants = [
     like: false,
     img: require('../assets/plant6.png'),
     about:
-      'Potted Plant Ravenea Plant one of the most popular and beautiful species that will produce clumpms. The storage of water often gives succulent plants a more swollen or fleshy appearance than other plants, a characteristic known as succulence.',
+      'ام نوعی گل رز است که از برخی نمونه‌های آن گلاب می‌گیرند. این گونه از رز مقاومت بالایی در مقابل کم‌آبی دارد و در شهرهای بزرگ به خوبی رشد می‌کند. گل سرخ درختچه ای برگ‌ریز است که ارتفاع آن به ۲٫۲ متر نیز می‌رسد و شاخه‌های آن با خارهای تیز و محکمی حفاظت می‌شود. گل محمدی طیف رنگی از صورتی روشن و متوسط تا سرخ روشن دارد',
   },
 ];
 

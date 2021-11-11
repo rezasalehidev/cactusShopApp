@@ -1,7 +1,7 @@
 import React from 'react';
 import {View, Text, StyleSheet} from 'react-native';
 import Entypo from 'react-native-vector-icons/Entypo';
-import {COLORS} from './../src/consts';
+import {COLORS} from '../../src/consts';
 
 const HeaderHome = () => {
   return (
