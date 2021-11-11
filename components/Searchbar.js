@@ -21,20 +21,11 @@ const styles = StyleSheet.create({
     justifyContent: 'space-between',
     marginTop: 15,
   },
-  BoxIocn: {
-    backgroundColor: COLORS.green,
-    alignItems: 'center',
-    justifyContent: 'center',
-    flex: 1,
-  },
-  containerInputSearch: {
-    flexDirection: 'row',
-    alignItems: 'center',
-  },
   IconSearch: {
     backgroundColor: COLORS.green,
     padding: 18,
     borderTopLeftRadius: 15,
+    color: COLORS.white,
   },
   TextSearchInput: {
     borderWidth: 1,
