@@ -4,14 +4,14 @@ create Plant Shop for (android &amp; Ios)
 <h2 dir="rtl">Live Demo</h2>
 <div dir="rtl">
 
-![22](https://user-images.githubusercontent.com/87220516/141422773-ef41c6f7-7bad-489d-993a-366c8e9c0299.gif)
+![4](https://user-images.githubusercontent.com/87220516/141643424-f81172bd-97ef-4a40-a7da-70106add87ce.gif)
 
 <p dir="rtl">با همکاری در این پروژه شما هم جزئی از دنیای اوپن سورس خواهید بود</p>
    
    first clone 
 
 ```
-https://github.com/rezasalehidev/cactusShopApp.git
+https://github.com/rezasalehidev/StationeryShopApp.git
 ```
    
    next 
